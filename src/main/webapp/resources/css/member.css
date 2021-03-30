@@ -1,0 +1,90 @@
+body{
+    min-height: 100vh;
+    font-size: 14px;
+}
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.content{
+    background-color: #F6F7FB;
+    min-height: calc(100vh - 50px) !important;
+}
+.member{
+    background: #ffffff;
+    padding-right: 0;
+    box-shadow: 4px 0 rgba(0,0,0,.1);
+    min-height: calc(100vh - 50px) !important;
+}
+.member-info{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-top: 20px;
+}
+.member-info img{
+    height: 120px;
+    width: 120px;
+}
+.member-info__name{
+    margin-top: 20px;
+}
+.member-info__score .fa-star{
+    color: #ffff00;
+}
+.member-menu .list-group-item{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.member-menu .list-group-item:hover{
+    cursor: pointer;
+    color: #fff;
+    background:#0f5bb3;
+    border-radius: 0;
+}
+.main-content{
+    padding-top: 30px;
+}
+.main-content .card-header{
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+}
+.main-content .card-body .form-control:focus{
+    box-shadow: none;
+    border-color:#ced4da;
+}
+.main-content .card-body .form-search{
+    justify-content: flex-end;
+}
+.main-content .card-body .form-search label{
+    padding-right: 5px;
+}
+.pagination .page-link{
+	color: #000000;
+}
+.header__wrapper{
+    display: block;
+    width: 100%;
+    background-color: #0c4da2;
+    padding: 5px 0;
+    color: #ffffff;
+}
+.header__logo img{
+    max-height: 40px;
+}
+.header__group .item{
+    padding: 8px;
+}
+.header__search input{
+    border-right: none;
+}
+.header__search input:hover, .header__search input:focus{
+    box-shadow: none;
+}
+.header__search .btn-custom{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-left: none;
+}

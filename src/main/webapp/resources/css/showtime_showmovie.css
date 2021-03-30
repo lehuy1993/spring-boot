@@ -1,0 +1,110 @@
+disabled {
+  pointer-events: none;
+  cursor: default;
+}
+w-100{
+	
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+
+.border-bottom {
+	width: 100% !important;
+	display:inline-flex;
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.ml-5, .mx-5 {
+    margin-left: 3rem!important;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+ .btn-showtime {
+    margin-bottom: 4px;
+    line-height: 14px;
+    width: 56px;
+    height: 38px;
+    padding: 4px 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .btn-outline-dark {
+    color: #12263f; 
+    border-color: #12263f;
+
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #12263f;
+    border-color: #12263f;
+}
+
+
+.card-title {
+    margin-bottom: .5rem;
+}
+.mb-1, .my-1 {
+    margin-bottom: .1875rem!important;
+}
+.card-title {
+    margin-bottom: 1rem;
+}
+.display-1, .display-2, .display-3, .display-4, h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -.02em;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-bottom: .5625rem;
+}
+.h4, h4 {
+    font-size: .9375rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.125rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1.125rem;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #edf2f9;
+    border-radius: .5rem;
+}
+.text-muted {
+    color: #95aac9!important;
+}
+.name{
+    font-size: xx-large;
+}
